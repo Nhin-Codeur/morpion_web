@@ -1,0 +1,71 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("wallpaper.jpg");
+}
+
+.plateau {
+	width: 600px;
+	height: 600px;
+	
+	display: flex;
+	flex-direction: column;
+}
+
+
+.longueur {
+	width: 100%;
+	height: 33%;
+	display: flex;
+	flex-direction: row;
+}
+
+
+.case {
+	
+	width: 33%;
+	height: 100%;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.case_border {
+	border: 2px solid black;
+}
+
+.case_haut {
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	
+}
+
+.case_bas {
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+	
+}
+
+.case_droite {
+	
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+.case_gauche {
+	border-top: 2px solid black;
+		
+	border-bottom: 2px solid black;
+}
+
+
+.cross {
+	width: 60%;
+}
+
+.circle {
+	width: 70%;
+	height: 70%;
+	display: inline-block; 
+}
